@@ -1,0 +1,253 @@
+*{
+    padding: 0; /*внешние отступы*/
+    margin: 0; /*внутренние отступы*/
+}
+
+body{
+    display: flex; /*контейнер*/
+    justify-content: center;
+    background-color: lightcyan;
+    font-family: 'Roboto',Roboto;
+}
+
+.site{
+    width: 2880px;
+    height: 500px;
+    background: rgba(0,0,0,0.1);
+    /*margin: auto;*/
+}
+
+.nav{
+    width: 100%;
+    height: 320px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.btn{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+    margin-right: 120px;
+}
+
+.btn-menu{
+    padding: 22px;
+    width: 300px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /*по вертикали в контейнере*/
+}
+
+.btn-menu4{
+    padding: 22px;
+    width: 300px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /*по вертикали в контейнере*/
+    border: 2px solid #3e84da;
+    border-radius: 40px;
+}
+
+.btn-menu:hover{
+    border-radius: 6px;
+    border-bottom: 3px solid #3e84da;
+}
+
+.btn-menu4:hover{
+    background: #3e84da;
+    color: white;
+}
+
+.logo{
+    margin-left: 170px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.fon{
+    width: 100%;
+    height: 1000px;
+    background: #3e84da;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+   /* background-size: 100%;
+    background-position: 0 -200px; */
+}
+.fon-info1 {
+    margin-top: -300px;
+    font-size: 72px;
+    color: #f6f8fd;
+    padding: 55px;
+    font-weight: lighter;
+}
+
+.fon-info{
+    color: #f6f8fd;
+    font-size: 52px;
+    text-align: center;
+    -moz-user-select: none;
+    line-height: 75px;
+}
+
+/*.ask-btn{*/
+/*    padding: 4px 50px;*/
+/*    background: #b3b4ff;*/
+/*    border: 2px solid #008B8B;*/
+/*    text-shadow: black 0 0 5px;*/
+/*    cursor: pointer;*/
+/*    border-radius: 11px;*/
+/*    color: white;*/
+/*    -moz-user-select: none;*/
+/*    font-size: 30px;*/
+/*    width: 200px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin: 10px 0;*/
+/*}*/
+
+.con{
+    width: 100%;
+    height: 3800px;
+    background: white;
+    /*margin: auto;*/
+}
+
+.ask-btn:active{
+    background: #1195ff;
+}
+
+.info{
+    width: 100%;
+    height: 2000px;
+    background: #ece6d8;
+    /*margin: auto;*/
+}
+
+.place{
+    position: absolute;
+    bottom: -3500px;
+    width: 1400px;
+    height: 3840px;
+    background: white;
+}
+
+.chelik{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.q1{
+    margin-top: 50px;
+    font-size: 52px;
+    color: #3e84da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q11{
+    margin-top: 120px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 55px;
+}
+
+.zag{
+    font-size: 72px;
+    margin-left: 460px;
+}
+
+.block1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 460px;
+    margin-right: 250px;
+    margin-top: 170px;
+    line-height: 55px;
+    justify-content: space-between;
+
+}
+
+.b1 p{
+    font-size: 52px;
+}
+
+.b1{
+    font-size: 32px;
+}
+
+.block2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 460px;
+    margin-right: 350px;
+    margin-top: 170px;
+    line-height: 55px;
+    justify-content: space-between;
+
+}
+
+.qwe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 52px;
+    margin-top: 220px;
+}
+.ca{
+    margin-left: 1250px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 80px;
+    border: 2px solid #3e84da;
+    border-radius: 40px;
+    padding: 22px;
+}
+
+.ca:hover{
+    background: #3e84da;
+    color: white;
+}
+
+.footer{
+    height: 180px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu{
+    width: 1000px;
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
